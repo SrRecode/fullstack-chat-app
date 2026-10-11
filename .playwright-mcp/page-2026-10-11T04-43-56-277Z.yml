@@ -1,0 +1,215 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]: "A little something for you: free shipping on orders over $75"
+  - banner [ref=e10]:
+    - button "Little Leaf Market home" [ref=e11] [cursor=pointer]:
+      - generic [ref=e16]:
+        - text: little leaf
+        - generic [ref=e17]: MARKET
+    - navigation "Main navigation" [ref=e18]:
+      - button "Shop all" [ref=e19] [cursor=pointer]
+      - button "Find an order" [ref=e20] [cursor=pointer]
+    - button "Open shopping bag with 0 items" [ref=e22] [cursor=pointer]:
+      - generic [ref=e26]: Bag
+      - generic [ref=e27]: "0"
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: LITTLE THINGS, MADE WITH CARE
+        - heading [level=1] [ref=e33]:
+          - text: Find your kindof
+          - emphasis [ref=e34]: everyday.
+        - paragraph [ref=e35]: Thoughtful finds for the rituals, routines, and in-between moments that make a life yours.
+        - button "Shop the good stuff" [ref=e36] [cursor=pointer]
+        - generic [ref=e39]: Small-batch goods, chosen with a little more heart.
+      - generic [ref=e42]:
+        - img "Sunlit home with warm, natural textures and a leafy plant" [ref=e43]
+        - generic [ref=e44]: made forslow living
+        - generic [ref=e50]:
+          - generic [ref=e51]: THE SUNDAY EDIT
+          - generic [ref=e52]: vol. 01 — everyday rituals
+      - generic [aria-hidden]: ✳
+      - generic [aria-hidden]: ✳
+    - region "Our promises" [ref=e53]:
+      - generic [ref=e54]: Thoughtfully sourced
+      - generic [ref=e58]: Small makers, big heart
+      - generic [ref=e61]: Packed with care
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]: THE LITTLE LEAF EDIT
+          - heading [level=2] [ref=e69]:
+            - text: Good things,
+            - emphasis [ref=e70]: gathered.
+        - paragraph [ref=e71]: Useful things with a little soul.All chosen to be loved for a long time.
+      - generic [ref=e72]:
+        - generic "Filter by category" [ref=e73]:
+          - button "All finds" [ref=e74] [cursor=pointer]
+          - button "At home" [ref=e75] [cursor=pointer]
+          - button "On the go" [ref=e76] [cursor=pointer]
+          - button "Little things" [ref=e77] [cursor=pointer]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e83]: Search products
+            - textbox "Search products" [ref=e84]:
+              - /placeholder: Find something lovely
+          - generic [ref=e85]:
+            - generic [ref=e86]: Sort products
+            - combobox "Sort products" [ref=e87] [cursor=pointer]:
+              - option "Featured" [selected]
+              - 'option "Price: low to high"'
+              - 'option "Price: high to low"'
+              - option "Top rated"
+      - generic [ref=e88]:
+        - article [ref=e89]:
+          - button "View Everyday Linen Tote" [ref=e90] [cursor=pointer]:
+            - img "Natural canvas tote bag resting on a warm neutral background" [ref=e91]
+            - generic [ref=e92]: Bestseller
+            - generic [ref=e93]: Quick look
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]: On the go
+              - generic [ref=e99]:
+                - text: "4.9"
+                - generic [ref=e102]: (38)
+            - generic [ref=e103]:
+              - button "Everyday Linen Tote" [ref=e104] [cursor=pointer]
+              - generic [ref=e105]: $28.00
+            - generic [ref=e106]:
+              - generic [ref=e107]: Sage
+              - button "Add Everyday Linen Tote to bag" [ref=e108] [cursor=pointer]: Add
+        - article [ref=e110]:
+          - button "View Morning Ritual Mugs" [ref=e111] [cursor=pointer]:
+            - img "Handmade ceramic mug filled with coffee on a wooden table" [ref=e112]
+            - generic [ref=e113]: Small batch
+            - generic [ref=e114]: Quick look
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: At home
+              - generic [ref=e120]:
+                - text: "4.8"
+                - generic [ref=e123]: (24)
+            - generic [ref=e124]:
+              - button "Morning Ritual Mugs" [ref=e125] [cursor=pointer]
+              - generic [ref=e126]: $36.00
+            - generic [ref=e127]:
+              - generic [ref=e128]: Oat
+              - button "Add Morning Ritual Mugs to bag" [ref=e129] [cursor=pointer]: Add
+        - article [ref=e131]:
+          - button "View Sunday Garden Candle" [ref=e132] [cursor=pointer]:
+            - img "Lit candle in a glass vessel with soft greenery nearby" [ref=e133]
+            - generic [ref=e134]: Customer favorite
+            - generic [ref=e135]: Quick look
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: At home
+              - generic [ref=e141]:
+                - text: "5.0"
+                - generic [ref=e144]: (19)
+            - generic [ref=e145]:
+              - button "Sunday Garden Candle" [ref=e146] [cursor=pointer]
+              - generic [ref=e147]: $24.00
+            - generic [ref=e148]:
+              - generic [ref=e149]: Cream
+              - button "Add Sunday Garden Candle to bag" [ref=e150] [cursor=pointer]: Add
+        - article [ref=e152]:
+          - button "View Tortoise Claw Clip" [ref=e153] [cursor=pointer]:
+            - img "Amber-toned hair accessory arranged on a neutral surface" [ref=e154]
+            - generic [ref=e155]: Quick look
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - generic [ref=e160]: Little things
+              - generic [ref=e161]:
+                - text: "4.7"
+                - generic [ref=e164]: (31)
+            - generic [ref=e165]:
+              - button "Tortoise Claw Clip" [ref=e166] [cursor=pointer]
+              - generic [ref=e167]: $16.00
+            - generic [ref=e168]:
+              - generic [ref=e169]: Amber
+              - button "Add Tortoise Claw Clip to bag" [ref=e170] [cursor=pointer]: Add
+        - article [ref=e172]:
+          - button "View Sunday Stripe Tea Towels" [ref=e173] [cursor=pointer]:
+            - img "Warm, welcoming home interior with natural textures" [ref=e174]
+            - generic [ref=e175]: Quick look
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - generic [ref=e180]: At home
+              - generic [ref=e181]:
+                - text: "4.9"
+                - generic [ref=e184]: (17)
+            - generic [ref=e185]:
+              - button "Sunday Stripe Tea Towels" [ref=e186] [cursor=pointer]
+              - generic [ref=e187]: $22.00
+            - generic [ref=e188]:
+              - generic [ref=e189]: Rust stripe
+              - button "Add Sunday Stripe Tea Towels to bag" [ref=e190] [cursor=pointer]: Add
+        - article [ref=e192]:
+          - button "View A Little Space Journal" [ref=e193] [cursor=pointer]:
+            - img "Open notebook with handwritten notes and a pen" [ref=e194]
+            - generic [ref=e195]: Giftable
+            - generic [ref=e196]: Quick look
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - generic [ref=e201]: Little things
+              - generic [ref=e202]:
+                - text: "4.8"
+                - generic [ref=e205]: (26)
+            - generic [ref=e206]:
+              - button "A Little Space Journal" [ref=e207] [cursor=pointer]
+              - generic [ref=e208]: $18.00
+            - generic [ref=e209]:
+              - generic [ref=e210]: Terracotta
+              - button "Add A Little Space Journal to bag" [ref=e211] [cursor=pointer]: Add
+        - article [ref=e213]:
+          - button "View Little Woven Planter" [ref=e214] [cursor=pointer]:
+            - img "Leafy houseplant in a woven basket planter" [ref=e215]
+            - generic [ref=e216]: Quick look
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e221]: At home
+              - generic [ref=e222]:
+                - text: "4.9"
+                - generic [ref=e225]: (14)
+            - generic [ref=e226]:
+              - button "Little Woven Planter" [ref=e227] [cursor=pointer]
+              - generic [ref=e228]: $32.00
+            - generic [ref=e229]:
+              - generic [ref=e230]: Natural
+              - button "Add Little Woven Planter to bag" [ref=e231] [cursor=pointer]: Add
+        - article [ref=e233]:
+          - button "View Pebble Soap Dish" [ref=e234] [cursor=pointer]:
+            - img "Minimal handmade ceramic bathroom accessory in soft natural light" [ref=e235]
+            - generic [ref=e236]: Made by hand
+            - generic [ref=e237]: Quick look
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - generic [ref=e242]: Little things
+              - generic [ref=e243]:
+                - text: "4.6"
+                - generic [ref=e246]: (12)
+            - generic [ref=e247]:
+              - button "Pebble Soap Dish" [ref=e248] [cursor=pointer]
+              - generic [ref=e249]: $14.00
+            - generic [ref=e250]:
+              - generic [ref=e251]: Sea salt
+              - button "Add Pebble Soap Dish to bag" [ref=e252] [cursor=pointer]: Add
+      - generic [ref=e254]: A collection of 8 lovely things
+    - generic [ref=e255]:
+      - paragraph [ref=e260]:
+        - text: “The things we use every day can be small reminders to live a little more
+        - emphasis [ref=e261]: like ourselves.
+        - text: ”
+      - generic [ref=e262]: A NOTE FROM OUR LITTLE SHOP
+  - contentinfo [ref=e263]:
+    - generic [ref=e264]:
+      - generic [ref=e270]:
+        - text: little leaf
+        - generic [ref=e271]: MARKET
+      - paragraph [ref=e272]: Little joys for the life you live.
+      - button "Back to the shop" [ref=e273] [cursor=pointer]
+    - generic [ref=e276]:
+      - generic [ref=e277]: © 2026 Little Leaf Market
+      - generic [ref=e278]: Small things. Good days. Always.
+      - generic [ref=e279]: Made with a little more heart

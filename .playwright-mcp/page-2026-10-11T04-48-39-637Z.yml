@@ -1,0 +1,56 @@
+- main [ref=f3e3]:
+  - complementary "Workspace navigation" [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - generic [ref=f3e9]:
+        - strong [ref=f3e10]: chatterbox
+        - generic [ref=f3e11]: Product team
+      - button "Close room list" [ref=f3e137] [cursor=pointer]
+    - button "Search this room" [ref=f3e13] [cursor=pointer]
+    - generic [ref=f3e18]:
+      - generic [ref=f3e19]:
+        - generic [ref=f3e20]: YOUR ROOMS
+        - button "Add a room" [ref=f3e21] [cursor=pointer]
+      - navigation "Rooms" [ref=f3e23]:
+        - button "general" [ref=f3e24] [cursor=pointer]
+        - button "design" [ref=f3e29] [cursor=pointer]
+        - button "engineering" [ref=f3e34] [cursor=pointer]
+        - button "random" [ref=f3e39] [cursor=pointer]
+    - generic [ref=f3e44]:
+      - text: ROOMS ARE OPEN
+      - paragraph [ref=f3e45]: Everyone who joins a room can read its messages.
+    - button "S shams Change display name" [ref=f3e47] [cursor=pointer]:
+      - generic [ref=f3e48]: S
+      - generic [ref=f3e49]:
+        - strong [ref=f3e50]: shams
+        - generic [ref=f3e51]: Change display name
+  - button "Close room list" [ref=f3e141]
+  - generic [ref=f3e52]:
+    - generic [ref=f3e53]:
+      - button "Open room list" [expanded] [active] [ref=f3e135] [cursor=pointer]
+      - generic [ref=f3e59]:
+        - heading "general" [level=1] [ref=f3e60]
+        - paragraph [ref=f3e61]: A place for everything and everyone.
+      - button "Show 1 room members" [ref=f3e112] [cursor=pointer]:
+        - generic [ref=f3e71]: "1"
+    - generic [ref=f3e73]:
+      - 'log "Messages in #general" [ref=f3e74]':
+        - generic [ref=f3e75]:
+          - 'heading "Welcome to #general" [level=2] [ref=f3e80]'
+          - paragraph [ref=f3e81]:
+            - text: This is the beginning of the
+            - strong [ref=f3e82]: "#general"
+            - text: room. Say hello and get the conversation going.
+          - generic [ref=f3e83]: Today
+      - generic [ref=f3e85]:
+        - generic [ref=f3e86]:
+          - 'textbox "Message #general" [ref=f3e87]'
+          - generic [ref=f3e88]:
+            - generic [ref=f3e89]:
+              - strong [ref=f3e90]: Enter
+              - text: to send ·
+              - strong [ref=f3e91]: Shift + Enter
+              - text: for a new line
+            - generic [ref=f3e92]:
+              - button "Add emoji" [ref=f3e93] [cursor=pointer]
+              - button "Send message" [disabled] [ref=f3e97]
+        - paragraph [ref=f3e100]: "Your messages are shared with everyone in #general"
