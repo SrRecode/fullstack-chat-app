@@ -1,0 +1,34 @@
+- main [ref=f3e3]:
+  - generic [ref=f3e52]:
+    - generic [ref=f3e53]:
+      - button "Open room list" [ref=f3e135] [cursor=pointer]
+      - generic [ref=f3e59]:
+        - heading "design" [level=1] [ref=f3e142]
+        - paragraph [ref=f3e61]: A place for everything and everyone.
+      - button "Show 1 room members" [ref=f3e112] [cursor=pointer]:
+        - generic [ref=f3e71]: "1"
+    - generic [ref=f3e73]:
+      - 'log "Messages in #design" [ref=f3e143]':
+        - generic [ref=f3e75]:
+          - 'heading "Welcome to #design" [level=2] [ref=f3e144]'
+          - paragraph [ref=f3e81]:
+            - text: This is the beginning of the
+            - strong [ref=f3e82]: "#design"
+            - text: room. Say hello and get the conversation going.
+          - generic [ref=f3e83]: Today
+        - status [ref=f3e145]:
+          - text: shams joined the room
+          - button "Dismiss notification" [ref=f3e146] [cursor=pointer]
+      - generic [ref=f3e85]:
+        - generic [ref=f3e86]:
+          - 'textbox "Message #design" [ref=f3e150]'
+          - generic [ref=f3e88]:
+            - generic [ref=f3e89]:
+              - strong [ref=f3e90]: Enter
+              - text: to send ·
+              - strong [ref=f3e91]: Shift + Enter
+              - text: for a new line
+            - generic [ref=f3e92]:
+              - button "Add emoji" [ref=f3e93] [cursor=pointer]
+              - button "Send message" [disabled] [ref=f3e97]
+        - paragraph [ref=f3e100]: "Your messages are shared with everyone in #design"

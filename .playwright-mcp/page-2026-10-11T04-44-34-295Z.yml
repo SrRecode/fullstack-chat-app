@@ -1,0 +1,71 @@
+- main [ref=f1e3]:
+  - complementary "Workspace navigation" [ref=f1e4]:
+    - generic [ref=f1e9]:
+      - strong [ref=f1e10]: chatterbox
+      - generic [ref=f1e11]: Product team
+    - button "Search this room" [ref=f1e13] [cursor=pointer]
+    - generic [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]: YOUR ROOMS
+        - button "Add a room" [ref=f1e21] [cursor=pointer]
+      - navigation "Rooms" [ref=f1e23]:
+        - button "general" [ref=f1e24] [cursor=pointer]
+        - button "design" [ref=f1e29] [cursor=pointer]
+        - button "engineering" [ref=f1e34] [cursor=pointer]
+        - button "random" [ref=f1e39] [cursor=pointer]
+    - generic [ref=f1e44]:
+      - text: ROOMS ARE OPEN
+      - paragraph [ref=f1e45]: Everyone who joins a room can read its messages.
+    - button "Y Guest Change display name" [ref=f1e47] [cursor=pointer]:
+      - generic [ref=f1e48]: "Y"
+      - generic [ref=f1e49]:
+        - strong [ref=f1e50]: Guest
+        - generic [ref=f1e51]: Change display name
+  - generic [ref=f1e52]:
+    - generic [ref=f1e53]:
+      - generic [ref=f1e59]:
+        - heading "general" [level=1] [ref=f1e60]
+        - paragraph [ref=f1e61]: A place for everything and everyone.
+      - generic [ref=f1e62]:
+        - status [ref=f1e63]: Connecting
+        - button "Show 0 room members" [expanded] [ref=f1e65] [cursor=pointer]:
+          - generic [ref=f1e71]: "0"
+    - generic [ref=f1e72]:
+      - generic [ref=f1e73]:
+        - 'log "Messages in #general" [ref=f1e74]':
+          - generic [ref=f1e75]:
+            - 'heading "Welcome to #general" [level=2] [ref=f1e80]'
+            - paragraph [ref=f1e81]:
+              - text: This is the beginning of the
+              - strong [ref=f1e82]: "#general"
+              - text: room. Say hello and get the conversation going.
+            - generic [ref=f1e83]: Today
+        - generic [ref=f1e85]:
+          - generic [ref=f1e86]: Make yourself at home — choose a name to join the conversation.
+          - generic [ref=f1e89]:
+            - textbox "Your display name" [ref=f1e90]:
+              - /placeholder: Enter your display name to join…
+            - generic [ref=f1e91]:
+              - generic [ref=f1e92]: Your name is only visible in this room
+              - button "Join chat" [disabled] [ref=f1e94]
+      - complementary "Room members" [ref=f1e97]:
+        - generic [ref=f1e98]:
+          - heading "People" [level=2] [ref=f1e99]
+          - generic [ref=f1e100]: "0"
+        - paragraph [ref=f1e101]: Online — 0
+        - paragraph [ref=f1e103]: No one here just yet.
+  - dialog [ref=f1e104]:
+    - generic [ref=f1e105]:
+      - generic [ref=f1e106]: chatterbox
+      - generic [ref=f1e111]:
+        - generic [ref=f1e112]: Hey there
+        - generic [ref=f1e113]: Welcome to the team
+      - text: YOUR TEAM, IN SYNC
+      - heading "Good conversations start here." [level=2] [ref=f1e122]: Good conversationsstart here.
+      - paragraph [ref=f1e123]: Join your people, share an idea, or just say hi. Your team is waiting.
+      - generic [ref=f1e124]:
+        - generic [ref=f1e125]: What should we call you?
+        - textbox "What should we call you?" [active] [ref=f1e126]:
+          - /placeholder: e.g. Taylor
+        - button "Join the conversation" [disabled] [ref=f1e127]
+      - generic [ref=f1e130]: Your name is only saved on this device.

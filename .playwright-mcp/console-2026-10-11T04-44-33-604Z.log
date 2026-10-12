@@ -1,0 +1,2 @@
+[  112125ms] [ERROR] WebSocket connection to 'ws://localhost:3187/socket.io/?EIO=4&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3187/assets/index-Dg75atvG.js:48
+[  113474ms] [ERROR] WebSocket connection to 'ws://localhost:3187/socket.io/?EIO=4&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3187/assets/index-Dg75atvG.js:48

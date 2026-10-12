@@ -1,0 +1,73 @@
+- main [ref=f4e3]:
+  - complementary "Workspace navigation" [ref=f4e57]:
+    - generic [ref=f4e62]:
+      - strong [ref=f4e63]: chatterbox
+      - generic [ref=f4e64]: Product team
+    - button "Search this room" [ref=f4e66] [cursor=pointer]
+    - generic [ref=f4e71]:
+      - generic [ref=f4e72]:
+        - generic [ref=f4e73]: YOUR ROOMS
+        - button "Add a room" [ref=f4e74] [cursor=pointer]
+      - navigation "Rooms" [ref=f4e76]:
+        - button "general" [ref=f4e77] [cursor=pointer]
+        - button "design" [ref=f4e82] [cursor=pointer]
+        - button "engineering" [ref=f4e87] [cursor=pointer]
+        - button "random" [ref=f4e92] [cursor=pointer]
+    - generic [ref=f4e97]:
+      - text: ROOMS ARE OPEN
+      - paragraph [ref=f4e98]: Everyone who joins a room can read its messages.
+    - button "S shams Change display name" [ref=f4e100] [cursor=pointer]:
+      - generic [ref=f4e101]: S
+      - generic [ref=f4e102]:
+        - strong [ref=f4e103]: shams
+        - generic [ref=f4e104]: Change display name
+  - generic [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e13]:
+        - heading "design" [level=1] [ref=f4e14]
+        - paragraph [ref=f4e15]: A place for everything and everyone.
+      - generic [ref=f4e16]:
+        - status [ref=f4e105]: Connected
+        - button "Show 1 room members" [expanded] [active] [ref=f4e107] [cursor=pointer]:
+          - generic [ref=f4e23]: "1"
+    - generic [ref=f4e24]:
+      - generic [ref=f4e25]:
+        - 'log "Messages in #design" [ref=f4e26]':
+          - generic [ref=f4e27]:
+            - 'heading "Welcome to #design" [level=2] [ref=f4e32]'
+            - paragraph [ref=f4e33]:
+              - text: This is the beginning of the
+              - strong [ref=f4e34]: "#design"
+              - text: room. Say hello and get the conversation going.
+            - generic [ref=f4e35]: Today
+          - article [ref=f4e108]:
+            - generic [ref=f4e109]: S
+            - generic [ref=f4e110]:
+              - generic [ref=f4e111]:
+                - strong [ref=f4e112]: shams
+                - time [ref=f4e113]: 9:49 AM
+              - paragraph [ref=f4e114]: Interaction regression check.
+        - generic [ref=f4e37]:
+          - generic [ref=f4e38]:
+            - 'textbox "Message #design" [ref=f4e39]'
+            - generic [ref=f4e40]:
+              - generic [ref=f4e41]:
+                - strong [ref=f4e42]: Enter
+                - text: to send ·
+                - strong [ref=f4e43]: Shift + Enter
+                - text: for a new line
+              - generic [ref=f4e44]:
+                - button "Add emoji" [ref=f4e45] [cursor=pointer]
+                - button "Send message" [disabled] [ref=f4e49]
+          - paragraph [ref=f4e52]: "Your messages are shared with everyone in #design"
+      - complementary "Room members" [ref=f4e115]:
+        - generic [ref=f4e116]:
+          - heading "People" [level=2] [ref=f4e117]
+          - button "Close room members" [ref=f4e118] [cursor=pointer]
+          - generic [ref=f4e122]: "1"
+        - paragraph [ref=f4e123]: Online — 1
+        - generic [ref=f4e125]:
+          - generic [ref=f4e126]: S
+          - generic [ref=f4e127]:
+            - text: shams
+            - generic [ref=f4e128]: You
